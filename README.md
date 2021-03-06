@@ -17,5 +17,5 @@ helm repo update
 ```
 
 ```sh
-helm install <release_name> pacroy/cluster-issuer --namespace=<namespace> --set email=<your@email.com>
+helm install <release_name> pacroy/cluster-issuer --namespace=<namespace> --set email=<your@email.com> --set class=<nginx or traefik-cert-manager>
 ```
