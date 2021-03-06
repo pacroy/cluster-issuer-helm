@@ -1,1 +1,2 @@
 email: #Your email address
+class: nginx #or traefik-cert-manager
