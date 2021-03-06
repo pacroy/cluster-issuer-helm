@@ -11,4 +11,5 @@ spec:
     solvers:
     - http01:
         ingress:
-          class: {{ $.Values.class | quote }}
+          class: {{ required "class is required" $.Values.class | quote }}
+          
