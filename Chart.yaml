@@ -2,10 +2,12 @@ apiVersion: v2
 name: cluster-issuer
 description: ClusterIssuer of Jetstack's cert-manager
 type: application
-version: 1.1.1
+version: 2.0.0
 appVersion: 1.1.1
 sources:
   - https://github.com/pacroy/cluster-issuer
 maintainers:
   - name: Par
     email: pacroy@gmail.com
+annotations:
+  sha: "sha_to_be_replaced"
