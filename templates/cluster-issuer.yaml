@@ -11,5 +11,5 @@ spec:
     solvers:
     - http01:
         ingress:
-          class: {{ required "class is required" .Values.class | quote }}
+          class: {{ .Values.class | default "nginx" | quote }}
           
