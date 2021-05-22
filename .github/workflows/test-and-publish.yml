@@ -37,7 +37,7 @@ jobs:
           new_archive=$(git ls-files --other --exclude-standard | head -n 1)
 
           if [ -z "$new_archive" ]; then
-            echo "::error::No new package file. Do you forget to bump up the chart version?"
+            echo "::error::No new package file. Did you forget to bump up the chart version?"
             exit 91
           fi
 
