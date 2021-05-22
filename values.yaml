@@ -1,2 +1,2 @@
-email: youremail@domain.com #Your email address
-class: nginx #nginx or traefik-cert-manager
+# email: youremail@domain.com
+# class: nginx or traefik-cert-manager
