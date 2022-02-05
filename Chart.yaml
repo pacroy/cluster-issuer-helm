@@ -2,7 +2,7 @@ apiVersion: v2
 name: cluster-issuer
 description: ClusterIssuer of Jetstack's cert-manager
 type: application
-version: 2.0.1
+version: 2.0.2
 appVersion: 1.1.1
 sources:
   - https://github.com/pacroy/cluster-issuer
