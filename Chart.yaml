@@ -5,7 +5,7 @@ type: application
 version: 2.0.2
 appVersion: 1.1.1
 sources:
-  - https://github.com/pacroy/cluster-issuer
+  - https://github.com/pacroy/cluster-issuer-helm
 maintainers:
   - name: Par
     email: pacroy@gmail.com
