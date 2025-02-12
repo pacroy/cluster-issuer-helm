@@ -16,7 +16,7 @@ on:
 jobs:
   test:
     name: Test Chart Template
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
