@@ -2,7 +2,7 @@ apiVersion: v2
 name: cluster-issuer
 description: Let's Encrypt Production ClusterIssuer for Jetstack's cert-manager
 type: application
-version: 2.1.0
+version: 2.1.1
 appVersion: 1.1.1
 sources:
   - https://github.com/pacroy/cluster-issuer-helm
