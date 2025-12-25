@@ -11,5 +11,5 @@ spec:
     solvers:
     - http01:
         ingress:
-          class: {{ .Values.class | default "nginx" | quote }}
+          ingressClassName: {{ .Values.class | default "nginx" | quote }}
           
